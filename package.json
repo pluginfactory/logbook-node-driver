@@ -1,5 +1,5 @@
 {
-  "name": "logbook-node-driver",
+  "name": "@pluginfactory/logbook-node-driver",
   "version": "1.0.0",
   "description": "Connectivity and logs driver for logbook (A Realtime logging tool by pluginfactory)",
   "main": "launcher.js",
@@ -8,7 +8,7 @@
     "start": "node launcher"
   },
   "keywords": [],
-  "author": "",
+  "author": "gaurav sharma",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.2.0",
@@ -25,6 +25,18 @@
     "rollup-plugin-node-resolve": "^4.0.0"
   },
   "dependencies": {
-    "request": "^2.88.0"
-  }
+    "request": "^2.88.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pluginfactory/logbook-node-driver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pluginfactory/logbook-node-driver/issues"
+  },
+  "homepage": "https://github.com/pluginfactory/logbook-node-driver#readme"
 }
