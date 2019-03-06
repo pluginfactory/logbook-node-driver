@@ -6,7 +6,8 @@
  * @author gaurav sharma
  * @since Wednesday, December 19, 2018
  */
-import Service from './src/service';
+import Logger from './src/service';
+
 export default {
-	PluginService: Service,
+	LogbookDriver: Logger,
 };
