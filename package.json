@@ -1,6 +1,6 @@
 {
   "name": "@pluginfactory/logbook-node-driver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Connectivity and logs driver for logbook (A Realtime logging tool by pluginfactory)",
   "main": "lib/bundle.js",
   "scripts": {
