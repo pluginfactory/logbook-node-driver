@@ -2,7 +2,7 @@
   "name": "@pluginfactory/logbook-node-driver",
   "version": "1.0.1",
   "description": "Connectivity and logs driver for logbook (A Realtime logging tool by pluginfactory)",
-  "main": "launcher.js",
+  "main": "lib/bundle.js",
   "scripts": {
     "build": "rollup --config rollup.config.js --file lib/bundle.js",
     "start": "node launcher"
