@@ -4,7 +4,7 @@ import io from 'socket.io-client';
  * eventually be imported in index.js and hence exported. Fell free to play around
  * and happy coding.
  * @author gaurav sharma
- * @since 17th March 2019
+ * @since 7th March 2019
  */
 export default class Logger {
 	constructor(URL) {
